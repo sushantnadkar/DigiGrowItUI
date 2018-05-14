@@ -196,7 +196,7 @@ img.logo {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 	#msform {
-		width: 40%;
+		width: 20%;
 	}
 	img.logo {
 		width: 30%;
