@@ -169,14 +169,14 @@ img.logo {
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 	#msform {
-		width: 70%;
+		width: 100%;
 	}
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 	#msform {
-		width: 60%;
+		width: 100%;
 	}
 	img.logo {
 		width: 50%;
