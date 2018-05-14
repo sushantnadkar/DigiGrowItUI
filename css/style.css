@@ -27,23 +27,22 @@ img {
 h1 {
     text-align: center;
 }
-
-/* logo {
-    display: block;
-	margin-left: auto;
-	padding: 15px;
-	border: 1px solid #ccc;
-	border-radius: 3px;
-	margin-bottom: 10px;
-	width: 100%;
-	box-sizing: border-box;
-
-	margin-right: auto } */
 	
 /*form styles*/
+
+.header {
+	width: 60%;
+	margin: 0 auto;
+}
+img.logo {
+	width: 60%;
+}
+.tagline {
+	font-size: 0.9em;
+}
 #msform {
-	width: 400px;
-	margin: 50px auto;
+	width: 100%;
+	margin: 1em auto;
 	text-align: center;
 	position: relative;
 }
@@ -70,6 +69,7 @@ h1 {
 	border: 1px solid #ccc;
 	border-radius: 3px;
 	margin-bottom: 10px;
+	margin-top: 10px;
 	width: 100%;
 	box-sizing: border-box;
 	font-family: montserrat;
@@ -84,8 +84,8 @@ h1 {
 	border: 0 none;
 	border-radius: 1px;
 	cursor: pointer;
-	padding: 10px 5px;
-	margin: 10px 5px;
+	padding: 10px 15px;
+	margin: 10px 0px;
 }
 
 #msform .selection-button {
@@ -95,8 +95,8 @@ h1 {
 	border: 0 none;
 	border-radius: 1px;
 	cursor: pointer;
-	padding: 10px 5px;
-	margin: 10px 5px;
+	padding: 10px 15px;
+	margin: 10px 0px;
 }
 
 
@@ -114,7 +114,7 @@ h1 {
 	font-weight: normal;
 	font-size: 13px;
 	color: #666;
-	margin-bottom: 20px;
+	margin-bottom: 1em;
 }
 /*progressbar*/
 #progressbar {
@@ -164,4 +164,41 @@ h1 {
 #progressbar li.active:before,  #progressbar li.active:after{
 	background: #27AE60;
 	color: white;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	#msform {
+		width: 70%;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	#msform {
+		width: 60%;
+	}
+	img.logo {
+		width: 50%;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	#msform {
+		width: 50%;
+	}
+	img.logo {
+		width: 40%;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	#msform {
+		width: 40%;
+	}
+	img.logo {
+		width: 30%;
+	}
 }
